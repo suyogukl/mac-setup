@@ -15,4 +15,3 @@ openoffice
 calibre
 keepingyouawake
 java8
-virtualbox
