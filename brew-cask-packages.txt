@@ -10,7 +10,6 @@ postman
 vlc
 alfred
 firefox
-google-chrome
 intellij-idea
 openoffice
 calibre
