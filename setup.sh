@@ -44,16 +44,16 @@ brew install gnu-sed
 
 brew install git
 
-echo $name | sh -c "$(curl -fsSL https://raw.githubusercontent.com/nrjais/oh-my-zsh/master/tools/install.sh)"
+echo $name | sh -c "$(curl -fsSL https://raw.githubusercontent.com/suyogukl/oh-my-zsh/master/tools/install.sh)"
 
 echo "Installing vim";
-git clone --depth=1 https://github.com/nrjais/vimrc.git ~/.vim_runtime
+git clone --depth=1 https://github.com/suyogukl/vimrc.git ~/.vim_runtime
 
 sh ~/.vim_runtime/install.sh
 sh ~/.vim_runtime/install_awesome_vimrc.sh
 
 # Clone setup scripts
-git clone https://github.com/nrjais/mac-setup
+git clone https://github.com/suyogukl/mac-setup
 cd ./mac-setup
 sh ./install-packages.sh
 cd ..
